@@ -21,6 +21,7 @@ class Injector {
     this.lastUser = null;
     this.initIPC();
     webFrame.setZoomLevelLimits(1, 1);
+    webFrame.setZoomFactor(1.5);
 
     new MenuHandler().create();
   }
